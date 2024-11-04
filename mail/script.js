@@ -24,7 +24,16 @@ let flag = false;
 // Ciclo che controlla tutte le mail presenti nell'array
 for (let i = 0; i < mailList.length; i++) {
     if (userMail === mailList[i]) {
-        flag = false;
+        flag = true;
     }
+}
+
+if (flag) {
+    console.log("Benvenuto! La tua email è nella lista, puoi accedere");
+
+}
+else {
+    console.log("Spiacente! La tua mail non risulta nella lista");
+
 }
 
