@@ -5,9 +5,9 @@ console.clear();
 
 // Messaggio di anteprima
 console.log("Potenze di 2 fino a 1000:");
-// Variabile accumulatore
-let result = 0;
-// Ciclo che stampa le potenze di due
-for (let i = 0; i < 1000; i++) {
-
+// Ciclo che stampa le potenze di due per i primi 1000 numeri
+for (let i = 0; i <= 1000; i++) {
+    console.log(parseInt(Math.pow(i, 2)));
+    // Oppure usando l'operatore di elevazione a potenza (**)
+    // console.log(i**2);
 }
