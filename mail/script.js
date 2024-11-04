@@ -21,3 +21,10 @@ const userMail = prompt("Inserisci la tua email");
 // Creo una variabile booleana di appoggio e la inizializzo a false
 let flag = false;
 
+// Ciclo che controlla tutte le mail presenti nell'array
+for (let i = 0; i < mailList.length; i++) {
+    if (userMail === mailList[i]) {
+        flag = false;
+    }
+}
+
