@@ -18,3 +18,6 @@ const mailList = [
 
 // Chiedo all'utente di inserire una mail
 const userMail = prompt("Inserisci la tua email");
+// Creo una variabile booleana di appoggio e la inizializzo a false
+let flag = false;
+
